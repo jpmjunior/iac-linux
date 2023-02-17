@@ -13,3 +13,22 @@ Desafio de projeto da [DIO](https://dio.me) ministrado pelo professor [Denilson 
 - Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório;
 - Os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos que eles não pertencem;
 - Subir arquivo de script criado para a sua conta no GitHub.
+
+## Execução
+1. Para executar este script no seu servidor, digite o seguinte comando para baixa-lo:
+
+```bash
+wget https://github.com/jpmjunior/iac-linux/raw/main/config-server.sh
+```
+
+2. Dê permissão de execução ao script:
+
+```bash
+chmod +x config-server.sh
+```
+
+3. Execute o script com privilégios de administrador:
+
+```bash
+sudo ./config-server.sh
+```
